@@ -163,4 +163,36 @@ Git se ha usado como software base sobre el que se han desarrollado otros proyec
 
  - Herramientas, como gitflow [4], que facilitan la automatización de las tareas implicadas en cierto/s flujo/s de trabajo.
 
- 
+<br>
+<br>
+
+ ## **Contenido**
+<br>
+
+1. ### **GitLab Flow**
+<br>
+
+Creado en 2014 por Gitlab. ​Es una especie de extensión de GitHub Flow acompañado de un conjunto de pautas y mejores prácticas que apuntan a estandarizar aún más el proceso. Al igual que GitHub Flow propone el uso de ramas de funcionalidad (feature) que se originan a partir de la rama master y que al finalizarse se mezclan con la rama master. 
+<br>
+<br>
+
+
+2. ### **Ramas de entorno**
+<br>
+
+Por ejemplo pre-production production. Se crean a partir de la rama master cuando estamos listos para implementar nuestra aplicación. Si hay un error crítico lo podemos arreglar en un rama y luego mezclarla en la rama de entorno.
+<br>
+<br>
+
+
+3. ### **Ramas de versión**
+<br>
+
+Por ejemplo 1.5-stable 1.6-stable. El flujo puede incluir ramas de versión en caso de que el software requiera lanzamientos frecuentes.
+<br>
+<br>
+
+4. ### **One Flow**
+<br>
+
+Creado en 2015 por Adam Ruka. En él cada nueva versión de producción está basada en la versión previa de producción. La mayor diferencia entre One Flow y Git Flow es que One Flow no tiene rama de desarrollo.
